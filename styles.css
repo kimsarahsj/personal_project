@@ -2,6 +2,8 @@
   --primary-color: #6c63ff;
   --secondary-color: #f5f2fe;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  --font-0: "Playfair Display", serif;
+  --font-1: "Nanum Gothic", sans-serif;
 }
 
 body {
@@ -18,25 +20,49 @@ h2,
 h3 {
   text-align: center;
   margin: 0;
+  color: #ffff;
+  text-shadow: 2px 2px 5px #000000;
 }
 
 h1 {
   font-size: 96px;
+  font-family: var(--font-0);
 }
 
 h2 {
   font-size: 48px;
+  font-family: var(--font-1);
   display: block;
 }
 
 h3 {
   font-size: 24px;
-  opacity: 0.7;
+  font-family: var(--font-0);
+  font-style: italic;
 }
-
+h4 {
+  font-size: 48px;
+  display: block;
+  font-family: var(--font-1);
+}
+h5 {
+  font-size: 60px;
+  font-family: var(--font-0);
+  display: block;
+  color: #54585d;
+  text-align: center;
+}
+h6 {
+  font-size: 24px;
+  font-family: var(--font-0);
+  font-style: italic;
+}
 p {
   font-size: 18px;
   line-height: 1.5;
+  font-family: var(--font-1);
+  font-weight: 700;
+  color: #54585d;
 }
 img {
   overflow-clip-margin: content-box;
@@ -55,16 +81,14 @@ img {
   text-decoration: none;
   text-transform: capitalize;
 }
-
-.contact-link {
+.navbar {
+  font-family: var(--font-1);
+}
+.contact-link,
+.about-link {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
   color: white;
-}
-
-.about-link {
-  color: var(--primary-color);
-  border: 1px solid var(--primary-color);
 }
 
 .homepage-link {
@@ -98,8 +122,12 @@ img {
   color: white;
   text-decoration: none;
   border-radius: 4px;
-  padding: 20px 15px;
+  display: inline-block;
+  padding: 10px;
   text-transform: capitalize;
+}
+.link-container {
+  text-align: center;
 }
 .text-center {
   text-align: center;
@@ -130,4 +158,16 @@ img {
   h1 {
     font-size: 80px;
   }
+}
+.overview {
+  background-image: url("../personal_project/images/pexels-andrew-neel-2312369.jpg");
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  background-size: cover;
+}
+.hero {
+  border-bottom: 25px solid white;
+  padding: 20px;
+  gap: 30px;
+  background-color: hsla(243, 89%, 63%, 0.192);
 }
