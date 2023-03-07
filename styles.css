@@ -5,7 +5,6 @@
   --font-0: "Playfair Display", serif;
   --font-1: "Nanum Gothic", sans-serif;
 }
-
 body {
   margin: 0;
   font-size: 1rem;
@@ -14,7 +13,6 @@ body {
   color: #212529;
   line-height: 1.5;
 }
-
 h1,
 h2,
 h3 {
@@ -23,19 +21,16 @@ h3 {
   color: #ffff;
   text-shadow: 2px 2px 5px #000000;
 }
-
 h1 {
   font-size: 96px;
   font-family: var(--font-0);
 }
-
 h2 {
   font-size: 48px;
   font-family: var(--font-1);
   display: block;
   text-transform: uppercase;
 }
-
 h3 {
   font-size: 24px;
   font-family: var(--font-0);
@@ -74,7 +69,6 @@ img {
   margin-top: 40px;
   justify-content: center;
 }
-
 .navigation-links a {
   margin: 20px;
   border-radius: 4px;
@@ -91,22 +85,16 @@ img {
   box-shadow: var(--box-shadow);
   color: white;
 }
-
 .homepage-link {
   color: var(--primary-color);
   text-align: center;
   display: block;
 }
-
 .about-paragraphs {
   margin-left: auto;
   margin-right: auto;
   max-width: 800px;
 }
-
-.about-paragraphs p {
-}
-
 .email-link {
   display: flex;
   justify-content: center;
@@ -114,7 +102,6 @@ img {
   font-size: 28px;
   text-decoration: none;
 }
-
 .email-link:hover {
   text-decoration: underline;
 }
